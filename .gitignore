@@ -1,0 +1,26 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Large Binary Model Pickles
+models/*.pkl
+
+# SQLite Database and Dataset files
+data/ml-latest-small.zip
+data/ml-latest-small/
+data/users.db
+
+# Streamlit config / cache
+.streamlit/
+.streamlit/config.toml
+
+# OS Files
+.DS_Store
+Thumbs.db
